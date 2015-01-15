@@ -4,3 +4,7 @@ In example, the following youtube-player element will be displayed with 2 colors
 ```html
 	<youtube-player id="#$5213123"></youtube-player>
 ```
+With this HTML extended package, it will color the html element properly:
+![example for web components](https://raw.github.com/orizens/html-extended/master/images/example.png)
+
+This package should work with any color scheme.
