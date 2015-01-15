@@ -37,7 +37,7 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>HTML</string>
+	<string>HTML Extended</string>
 	<key>patterns</key>
 	<array>
 		<dict>
