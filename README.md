@@ -8,3 +8,7 @@ With this HTML extended package, it will color the html element properly:
 ![example for web components](https://raw.github.com/orizens/html-extended/master/images/example.png)
 
 This package should work with any color scheme.
+
+## Set HTML or other extension files to automatically open with html extended syntax
+1. open an html file that has a web component in it
+2. from the menu, select: View -> Syntax -> Open all with current extension as... -> Html Extended
