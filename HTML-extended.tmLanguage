@@ -439,7 +439,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;/?)((?i:([a-z-])+|([a-z_])+)\b)</string>
+			<string>(&lt;/?)(((:*[a-z-])+|([a-z_])+)\b)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
