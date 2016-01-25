@@ -4,18 +4,10 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>html</string>
-		<string>htm</string>
-		<string>shtml</string>
-		<string>xhtml</string>
-		<string>phtml</string>
-		<string>inc</string>
-		<string>tmpl</string>
-		<string>tpl</string>
-		<string>ctp</string>
+		<string>mjml</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>&lt;!(?i:DOCTYPE)|&lt;(?i:html)|&lt;\?(?i:php)</string>
+	<string>&lt;!(?i:DOCTYPE)|&lt;(?i:mjml)|&lt;\?(?i:php)</string>
 	<key>foldingStartMarker</key>
 	<string>(?x)
 		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)\b.*?&gt;
@@ -37,7 +29,7 @@
 	<key>keyEquivalent</key>
 	<string>^~H</string>
 	<key>name</key>
-	<string>HTML Extended</string>
+	<string>MJML</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -48,12 +40,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.html</string>
+					<string>entity.name.tag.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -63,31 +55,31 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html meta.scope.between-tag-pair.html</string>
+					<string>punctuation.definition.tag.begin.mjml meta.scope.between-tag-pair.mjml</string>
 				</dict>
 				<key>3</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>4</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.html</string>
+					<string>entity.name.tag.mjml</string>
 				</dict>
 				<key>5</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.any.html</string>
+			<string>meta.tag.any.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -104,18 +96,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.tag.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.xml.html</string>
+					<string>entity.name.tag.xml.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(\?&gt;)</string>
 			<key>name</key>
-			<string>meta.tag.preprocessor.xml.html</string>
+			<string>meta.tag.preprocessor.xml.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -140,20 +132,20 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.comment.html</string>
+					<string>punctuation.definition.comment.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>--\s*&gt;</string>
 			<key>name</key>
-			<string>comment.block.html</string>
+			<string>comment.block.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>match</key>
 					<string>--</string>
 					<key>name</key>
-					<string>invalid.illegal.bad-comments-or-CDATA.html</string>
+					<string>invalid.illegal.bad-comments-or-CDATA.mjml</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -169,13 +161,13 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.tag.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>&gt;</string>
 			<key>name</key>
-			<string>meta.tag.sgml.html</string>
+			<string>meta.tag.sgml.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -186,20 +178,20 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.tag.doctype.html</string>
+							<string>entity.name.tag.doctype.mjml</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(?=&gt;)</string>
 					<key>name</key>
-					<string>meta.tag.sgml.doctype.html</string>
+					<string>meta.tag.sgml.doctype.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
 							<key>match</key>
 							<string>"[^"&gt;]*"</string>
 							<key>name</key>
-							<string>string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+							<string>string.quoted.double.doctype.identifiers-and-DTDs.mjml</string>
 						</dict>
 					</array>
 				</dict>
@@ -209,13 +201,13 @@
 					<key>end</key>
 					<string>]](?=&gt;)</string>
 					<key>name</key>
-					<string>constant.other.inline-data.html</string>
+					<string>constant.other.inline-data.mjml</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>(\s*)(?!--|&gt;)\S(\s*)</string>
 					<key>name</key>
-					<string>invalid.illegal.bad-comments-or-CDATA.html</string>
+					<string>invalid.illegal.bad-comments-or-CDATA.mjml</string>
 				</dict>
 			</array>
 		</dict>
@@ -231,12 +223,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.style.html</string>
+					<string>entity.name.tag.style.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -246,11 +238,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.tag.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.style.html</string>
+			<string>meta.tag.style.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -265,18 +257,18 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tag.begin.html</string>
+							<string>punctuation.definition.tag.begin.mjml</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.tag.style.html</string>
+							<string>entity.name.tag.style.mjml</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(&lt;/)((?i:style))</string>
 					<key>contentName</key>
-					<string>source.css.embedded.html</string>
+					<string>source.css.embedded.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -305,18 +297,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)(?!.*type=["']text/(?:temp‌​late|html)['"])</string>
+			<string>(?:^\s+)?(&lt;)((?i:script))\b(?![^&gt;]*/&gt;)(?!.*type=["']text/(?:temp‌​late|mjml)['"])</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.script.html</string>
+					<string>entity.name.tag.script.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -326,11 +318,11 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.html</string>
+					<string>punctuation.definition.tag.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.script.html</string>
+			<string>meta.tag.script.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -345,18 +337,18 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.tag.end.html</string>
+							<string>punctuation.definition.tag.end.mjml</string>
 						</dict>
 						<key>2</key>
 						<dict>
 							<key>name</key>
-							<string>entity.name.tag.script.html</string>
+							<string>entity.name.tag.script.mjml</string>
 						</dict>
 					</dict>
 					<key>end</key>
 					<string>(&lt;/)((?i:script))</string>
 					<key>contentName</key>
-					<string>source.js.embedded.html</string>
+					<string>source.js.embedded.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -403,18 +395,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;/?)((?i:body|head|html)\b)</string>
+			<string>(&lt;/?)((?i:body|head|mjml)\b)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.structure.any.html</string>
+					<string>entity.name.tag.structure.any.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -424,11 +416,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.structure.any.html</string>
+			<string>meta.tag.structure.any.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -445,12 +437,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.structure.any.html</string>
+					<string>entity.name.tag.structure.any.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -460,11 +452,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.structure.any.html</string>
+			<string>meta.tag.structure.any.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -481,12 +473,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.block.any.html</string>
+					<string>entity.name.tag.block.any.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -496,11 +488,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.block.any.html</string>
+			<string>meta.tag.block.any.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -511,18 +503,18 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;/?)((?i:a|abbr|acronym|area|b|base|basefont|bdo|big|br|button|caption|cite|code|col|colgroup|del|dfn|em|font|head|html|i|img|input|ins|isindex|kbd|label|legend|li|link|map|meta|noscript|optgroup|option|param|q|s|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|var)\b)</string>
+			<string>(&lt;/?)((?i:a|abbr|acronym|area|b|base|basefont|bdo|big|br|button|caption|cite|code|col|colgroup|del|dfn|em|font|head|mjml|i|img|input|ins|isindex|kbd|label|legend|li|link|map|meta|noscript|optgroup|option|param|q|s|samp|script|select|small|span|strike|strong|style|sub|sup|table|tbody|td|textarea|tfoot|th|thead|title|tr|tt|u|var)\b)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.inline.any.html</string>
+					<string>entity.name.tag.inline.any.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -532,11 +524,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.inline.any.html</string>
+			<string>meta.tag.inline.any.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -553,12 +545,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.other.html</string>
+					<string>entity.name.tag.other.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -568,11 +560,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.other.html</string>
+			<string>meta.tag.other.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -589,13 +581,13 @@
 			<key>match</key>
 			<string>&lt;&gt;</string>
 			<key>name</key>
-			<string>invalid.illegal.incomplete.html</string>
+			<string>invalid.illegal.incomplete.mjml</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>&lt;</string>
 			<key>name</key>
-			<string>invalid.illegal.bad-angle-bracket.html</string>
+			<string>invalid.illegal.bad-angle-bracket.mjml</string>
 		</dict>
 
 		<dict>
@@ -606,12 +598,12 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.begin.html</string>
+					<string>punctuation.definition.tag.begin.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.block.any.html</string>
+					<string>entity.name.tag.block.any.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -621,11 +613,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.tag.end.html</string>
+					<string>punctuation.definition.tag.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.block.any.html</string>
+			<string>meta.tag.block.any.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -671,24 +663,24 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.entity.html</string>
+							<string>punctuation.definition.entity.mjml</string>
 						</dict>
 						<key>3</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.entity.html</string>
+							<string>punctuation.definition.entity.mjml</string>
 						</dict>
 					</dict>
 					<key>match</key>
 					<string>(&amp;)([a-zA-Z0-9]+|#[0-9]+|#x[0-9a-fA-F]+)(;)</string>
 					<key>name</key>
-					<string>constant.character.entity.html</string>
+					<string>constant.character.entity.mjml</string>
 				</dict>
 				<dict>
 					<key>match</key>
 					<string>&amp;</string>
 					<key>name</key>
-					<string>invalid.illegal.bad-ampersand.html</string>
+					<string>invalid.illegal.bad-ampersand.mjml</string>
 				</dict>
 			</array>
 		</dict>
@@ -713,7 +705,7 @@
 			<key>end</key>
 			<string>\?&gt;(?:\s*$\n)?</string>
 			<key>contentName</key>
-			<string>source.python.embedded.html</string>
+			<string>source.python.embedded.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -756,7 +748,7 @@
 					<key>end</key>
 					<string>-?%&gt;</string>
 					<key>contentName</key>
-					<string>source.ruby.embedded.html</string>
+					<string>source.ruby.embedded.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -793,7 +785,7 @@
 					<key>end</key>
 					<string>-?\?&gt;</string>
 					<key>contentName</key>
-					<string>source.ruby.nitro.embedded.html</string>
+					<string>source.ruby.nitro.embedded.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -831,7 +823,7 @@
 						<key>1</key>
 						<dict>
 							<key>name</key>
-							<string>source.smarty.embedded.html</string>
+							<string>source.smarty.embedded.mjml</string>
 						</dict>
 						<key>2</key>
 						<dict>
@@ -850,7 +842,7 @@
 					<key>end</key>
 					<string>}}|}</string>
 					<key>name</key>
-					<string>source.smarty.embedded.html</string>
+					<string>source.smarty.embedded.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -871,7 +863,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.html</string>
+					<string>punctuation.definition.string.begin.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -881,11 +873,11 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.html</string>
+					<string>punctuation.definition.string.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.html</string>
+			<string>string.quoted.double.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -907,7 +899,7 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.html</string>
+					<string>punctuation.definition.string.begin.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -917,11 +909,11 @@
 				<key>0</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.end.html</string>
+					<string>punctuation.definition.string.end.mjml</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.single.html</string>
+			<string>string.quoted.single.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -939,7 +931,7 @@
 			<key>match</key>
 			<string>\b([a-zA-Z\-:]+)</string>
 			<key>name</key>
-			<string>entity.other.attribute-name.html</string>
+			<string>entity.other.attribute-name.mjml</string>
 		</dict>
 		<key>tag-id-attribute</key>
 		<dict>
@@ -950,18 +942,18 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.other.attribute-name.id.html</string>
+					<string>entity.other.attribute-name.id.mjml</string>
 				</dict>
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.separator.key-value.html</string>
+					<string>punctuation.separator.key-value.mjml</string>
 				</dict>
 			</dict>
 			<key>end</key>
 			<string>(?&lt;='|")</string>
 			<key>name</key>
-			<string>meta.attribute-with-value.id.html</string>
+			<string>meta.attribute-with-value.id.mjml</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -972,11 +964,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.html</string>
+							<string>punctuation.definition.string.begin.mjml</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.toc-list.id.html</string>
+					<string>meta.toc-list.id.mjml</string>
 					<key>end</key>
 					<string>"</string>
 					<key>endCaptures</key>
@@ -984,11 +976,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.html</string>
+							<string>punctuation.definition.string.end.mjml</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.double.html</string>
+					<string>string.quoted.double.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1009,11 +1001,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.html</string>
+							<string>punctuation.definition.string.begin.mjml</string>
 						</dict>
 					</dict>
 					<key>contentName</key>
-					<string>meta.toc-list.id.html</string>
+					<string>meta.toc-list.id.mjml</string>
 					<key>end</key>
 					<string>'</string>
 					<key>endCaptures</key>
@@ -1021,11 +1013,11 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.html</string>
+							<string>punctuation.definition.string.end.mjml</string>
 						</dict>
 					</dict>
 					<key>name</key>
-					<string>string.quoted.single.html</string>
+					<string>string.quoted.single.mjml</string>
 					<key>patterns</key>
 					<array>
 						<dict>
@@ -1068,7 +1060,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>text.html.basic</string>
+	<string>text.mjml.basic</string>
 	<key>uuid</key>
 	<string>17994EC8-6B1D-11D9-AC3A-000D93589AF6</string>
 </dict>

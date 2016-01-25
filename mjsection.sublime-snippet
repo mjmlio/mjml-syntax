@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<mj-section>
+    $1
+</mj-section>]]></content>
+	<tabTrigger>mjsection</tabTrigger>
+    <description>MJML - MJML Section</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
