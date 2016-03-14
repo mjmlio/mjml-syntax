@@ -8,8 +8,6 @@ Provide syntax highlight and snippets for your MJML files!
 
 # Installation
 
-The plugin is not yet on Package Control.
+The easiest way to install the MJML syntax plugin for Sublime Text is through Package Control. The plugin is available [here](https://packagecontrol.io/packages/MJML-syntax).
 
-You can still install it via cloning this repository in your packages folder.
-To find this folder, open Sublime, Sublime Text -> Preferences -> Browse Packages..., and voila!
-
+If you don't want to install it through Package Control, you can still clone this repository in your packages folder. To find this folder, open Sublime, Sublime Text -> Preferences -> Browse Packages..., and voila!
