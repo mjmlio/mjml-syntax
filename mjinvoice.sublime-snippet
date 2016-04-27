@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<mj-invoice>
+    $1
+</mj-invoice>]]></content>
+	<tabTrigger>mjinvoice</tabTrigger>
+    <description>MJML - MJML Invoice</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
