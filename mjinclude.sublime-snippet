@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<mj-include path="$1" />]]></content>
+	<tabTrigger>mjinclude</tabTrigger>
+    <description>MJML - MJML Include</description>
+	<scope>text.mjml.basic</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<mj-class name="$1" $2/>]]></content>
+	<tabTrigger>mjclass</tabTrigger>
+    <description>MJML - MJML Class</description>
+	<scope>text.mjml.basic</scope>
+</snippet>

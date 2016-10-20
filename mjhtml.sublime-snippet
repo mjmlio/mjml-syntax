@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<mj-html>
+    $1
+</mj-html>]]></content>
+	<tabTrigger>mjhtml</tabTrigger>
+    <description>MJML - MJML Html</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
