@@ -1,10 +1,8 @@
 # mjml-syntax
 
-Sublime package for the MJML syntax
+Sublime package for the MJML syntax to provide syntax highlight and snippets for your MJML files.
 
 Forked from [Html-extended](https://github.com/orizens/html-extended)
-
-Provide syntax highlight and snippets for your MJML files!
 
 # Installation
 

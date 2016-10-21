@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<mj-font name="$1" href="$2" />]]></content>
+	<content><![CDATA[mj-font name="$1" href="$2" />]]></content>
 	<tabTrigger>mjfont</tabTrigger>
     <description>MJML - MJML Font</description>
 	<scope>text.mjml.basic</scope>
