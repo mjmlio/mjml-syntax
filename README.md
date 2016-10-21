@@ -4,6 +4,8 @@ Sublime package for the MJML syntax to provide syntax highlight and snippets for
 
 Forked from [Html-extended](https://github.com/orizens/html-extended)
 
+![](http://g.recordit.co/jXDO0dc1dG.gif)
+
 # Installation
 
 The easiest way to install the MJML syntax plugin for Sublime Text is through Package Control. The plugin is available [here](https://packagecontrol.io/packages/MJML-syntax).
