@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<mj-divider $1 />]]></content>
+	<tabTrigger>mjdivider</tabTrigger>
+    <description>MJML - MJML Divider</description>
+	<scope>text.mjml.basic</scope>
+</snippet>

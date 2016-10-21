@@ -1,8 +1,6 @@
 <snippet>
-	<content><![CDATA[<mj-image>
-    $1
-</mj-image>]]></content>
+	<content><![CDATA[<mj-image src="$1" />]]></content>
 	<tabTrigger>mjimage</tabTrigger>
-    <description>MJML - MJML image</description>
+    <description>MJML - MJML Image</description>
 	<scope>text.mjml.basic</scope>
 </snippet>

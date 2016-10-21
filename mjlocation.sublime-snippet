@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[<mj-location>
+    adress="$1" />]]></content>
+	<tabTrigger>mjlocation</tabTrigger>
+    <description>MJML - MJML Location</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
