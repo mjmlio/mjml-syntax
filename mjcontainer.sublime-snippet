@@ -3,6 +3,6 @@
     $1
 </mj-container>]]></content>
 	<tabTrigger>mjcontainer</tabTrigger>
-    <description>MJML - MJML container</description>
+    <description>MJML - MJML Container</description>
 	<scope>text.mjml.basic</scope>
 </snippet>

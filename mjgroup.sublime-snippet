@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[<mj-group>
+    $1
+</mj-group>]]></content>
+	<tabTrigger>mjgroup</tabTrigger>
+    <description>MJML - MJML Group</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
