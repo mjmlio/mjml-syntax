@@ -7,3 +7,4 @@ To activate MJML-syntax, set the syntax using the Goto Anything or the View -> S
 Changes in 1.1.0
 
 - Added missing snippets to match MJML 3.0.0. Thanks to @arthurkatz for his contribution.
+- Fixed autocomplete to remove the extra "<" on unwrap.

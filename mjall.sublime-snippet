@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<mj-all $1 />]]></content>
+	<content><![CDATA[mj-all $1 />]]></content>
 	<tabTrigger>mjall</tabTrigger>
     <description>MJML - MJML All</description>
 	<scope>text.mjml.basic</scope>

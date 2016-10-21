@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<mj-section>
+	<content><![CDATA[mj-section>
     $1
 </mj-section>]]></content>
 	<tabTrigger>mjsection</tabTrigger>

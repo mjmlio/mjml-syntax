@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[<mj-html>
+	<content><![CDATA[mj-html>
     $1
 </mj-html>]]></content>
 	<tabTrigger>mjhtml</tabTrigger>
