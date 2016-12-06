@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[mj-carousel>
+    $1
+</mj-carousel>]]></content>
+	<tabTrigger>mjcarousel</tabTrigger>
+    <description>MJML - MJML Carousel</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
