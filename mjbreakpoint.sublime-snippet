@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[mj-breakpoint width="$1" />]]></content>
 	<tabTrigger>mjbreakpoint</tabTrigger>
-    <description>MJML - MJML Breakpoint</description>
+		<description>MJML - MJML Breakpoint</description>
 	<scope>text.mjml.basic</scope>
 </snippet>
