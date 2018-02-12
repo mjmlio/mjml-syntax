@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[mj-hero>
-    <mj-hero-content>
-    	$1
-    </mj-hero-content>
+		$1
 </mj-hero>]]></content>
 	<tabTrigger>mjhero</tabTrigger>
-    <description>MJML - MJML Hero</description>
+		<description>MJML - MJML Hero</description>
 	<scope>text.mjml.basic</scope>
 </snippet>
