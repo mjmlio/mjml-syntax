@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[mj-navbar-link>
+		$1
+</mj-navbar-link>]]></content>
+	<tabTrigger>mjnavbarlink</tabTrigger>
+		<description>MJML - MJML Navbar Link</description>
+	<scope>text.mjml.basic</scope>
+</snippet>
