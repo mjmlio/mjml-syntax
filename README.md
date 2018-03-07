@@ -4,7 +4,7 @@ Sublime package for the MJML syntax to provide syntax highlight and snippets for
 
 Forked from [Html-extended](https://github.com/orizens/html-extended)
 
-![](http://g.recordit.co/jXDO0dc1dG.gif)
+![](http://g.recordit.co/dtLPbtuiLm.gif)
 
 # Installation
 
