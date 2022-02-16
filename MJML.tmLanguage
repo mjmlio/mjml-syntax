@@ -7,7 +7,7 @@
 		<string>mjml</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>&lt;!(?i:DOCTYPE)|&lt;(?i:mjml)|&lt;\?(?i:php)</string>
+	<string>&lt;(?i:mjml)</string>
 	<key>foldingStartMarker</key>
 	<string>(?x)
 		(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|li|form|dl)\b.*?&gt;
